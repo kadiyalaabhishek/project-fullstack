@@ -1,0 +1,19 @@
+# Frontend (React)
+node_modules/
+build/
+dist/
+
+# Backend (Python)
+venv/
+env/
+pycache/
+*.pyc/
+
+# Environment variables & Secrets
+.env
+.env.local
+
+node_modules/
+myenv/
+__pycache__/
+.env
