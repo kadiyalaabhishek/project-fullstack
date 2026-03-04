@@ -274,7 +274,7 @@ async def verify_payment(data: dict):
 # # chartboat groq code
 # 1. Initialize the Groq Client with your key
 # (Security Note: In production, it's best to store this in a .env file!)
-groq_client = Groq(api_key="your api key here")
+groq_client = Groq(api_key="your api groq")
 
 # 2. Create a dependency to get the database session
 def get_db():
